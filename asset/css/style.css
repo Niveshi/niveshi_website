@@ -6,3 +6,101 @@ img {
     height: 100%;
     object-fit: cover;
   }
+#header{
+    background-image: url("/asset/images/");
+}
+/* #header-title{
+    color:red;
+    position: absolute;
+    margin-top: 200px;
+} */
+#title-1{
+    text-shadow: 0px 0px 5px rgb(105, 105, 105);
+    position: absolute;
+    margin-top: 270px;
+    color: white;
+    margin-left: 7vw;
+    font-size: 3.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+#title-2{
+    position: absolute;
+    margin-top: 360px;
+    color: rgb(238, 232, 232);
+    margin-left: 12vw;
+    font-size: 2.5rem;
+    text-shadow: 0px 0px 5px rgb(59, 58, 58);
+
+}
+#niveshi{
+    font-size: 2.6rem;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 40px;
+    color: white;
+    text-shadow: 0px 0px 5px rgb(54, 52, 52);
+
+}
+#about{
+    margin: 0px 10vw;
+    font-size: 1.1rem;
+    word-spacing: 2px;
+    color: rgb(66, 66, 66);
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+#about-title{
+    text-align: center;
+    font-family: 'Rokkitt', serif;
+    font-size: 2.5rem;
+}
+
+#btn{
+    position: absolute;
+    margin-top: 440px;
+    margin-left: 20vw;
+    text-decoration: none;
+    display:inline-block;
+    padding:.44em 2.2em;
+    border-radius:2.5em;
+    font-weight: boler;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color:#FFFFFF;
+    background-color:#e4259b;
+    text-align:center;
+    transition: all 0.2s;
+    box-shadow: 0px 0px 10px rgb(235, 28, 217);
+}
+
+#btn:hover{
+    background-color:#c7077d;
+    }
+
+#btn-2{
+    position: absolute;
+    margin-top: 20px;
+    right:3vw;
+    text-decoration: none;
+    display:inline-block;
+    padding:.44em 2.2em;
+    border-radius:2.5em;
+    font-weight: boler;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color:#FFFFFF;
+    background-color:#45a877;
+    text-align:center;
+    transition: all 0.2s;
+    box-shadow: 0px 0px 8px rgb(255, 253, 253);
+}
+html {
+    scroll-behavior: smooth;
+  }
+#btn-2:hover{
+    background-color:#c7077d;
+    }
