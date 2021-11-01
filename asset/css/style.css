@@ -44,15 +44,22 @@ img {
 #about{
     margin: 0px 10vw;
     font-size: 1.1rem;
-    word-spacing: 2px;
-    color: rgb(66, 66, 66);
+    font-weight: 400;
+    word-spacing: 4px;
+    line-height: 40px;
+    color: rgb(13, 14, 13);
     margin-bottom: 50px;
     font-family: 'Montserrat', sans-serif;
 }
 #about-title{
+    letter-spacing: 5px;
+    word-spacing: 2px;
     text-align: center;
     font-family: 'Rokkitt', serif;
-    font-size: 2.5rem;
+    font-size: 2.8rem;
+    color: rgb(243, 238, 237);
+    text-shadow: 0px 0px 2px rgb(54, 52, 52);
+
 }
 
 #btn{
@@ -104,3 +111,54 @@ html {
 #btn-2:hover{
     background-color:#c7077d;
     }
+#desc{
+    width:100vw;
+    height: 70vh;
+    margin-top: -2vh;
+    background-color :rgb(180, 180, 178); 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0;
+    background: #02AAB0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00CDAC, #02AAB0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00CDAC, #02AAB0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+/*-----------Contact us--------*/
+#contact-us{
+    margin-top: -4vh;
+    background: #667db6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width:100vw;
+    height: 60vh;
+}
+#contact-us-1{
+    width:100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#contact-us-img{
+    width:500px;
+    height:200px;
+}
+/* #contact-us-btn{
+    position: relative;
+    width:20vw;
+    height:7vh;
+} */
+#get-in-touch-title{
+    word-spacing: 2px;
+    text-align: center;
+    font-family: 'Rokkitt', serif;
+    font-size: 2.8rem;
+    color:rgb(48, 48, 48);
+}
+#contact-us-inner{
+    
+}
