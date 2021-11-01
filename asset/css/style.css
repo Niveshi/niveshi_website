@@ -159,6 +159,9 @@ html {
     font-size: 2.8rem;
     color:rgb(48, 48, 48);
 }
-#contact-us-inner{
-    
+#contact-us-img:hover{
+    transition:ease-in-out 0.4s;
+    width:520px;
+    height:210px; 
+    animation-direction: alternate;
 }
